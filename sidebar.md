@@ -6,7 +6,16 @@
 
 ## 目录
 0. [前言](#README)
-0. [测试页](#docs/test)
+0. [基本用法](#docs/nginx_basic_usage)
+0. [配置示例](#docs/nginx_demo)
+0. [参考资料](#docs/nginx_reference)
+0. [环境FAQ](#docs/nginx_enviroment_faq)
+0. [功能FAQ](#docs/nginx_faq)
+
+
+## 读书笔记
+- [《精通Nginx》（第一版）](#docs/book/book_master_nginx)
+
 
 ## 附录 
 - [源码](https://github.com/mumingv/gitreposity)
