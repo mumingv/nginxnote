@@ -10,4 +10,5 @@
 ### 其他资源
 
 - [博客：nginx配置location总结及rewrite规则写法](http://seanlook.com/2015/05/17/nginx-location-rewrite/)
+- [博客：nginx location正则写法](https://www.cnblogs.com/IPYQ/p/7889399.html)
 
