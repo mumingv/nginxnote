@@ -89,3 +89,16 @@ fastcgi_params的默认内容：[链接](http://localhost/mnote/backup/nginx/fas
 |fastcgi_index	|PHP处理的默认入口文件|
 |fastcgi_param  |传給php-fpm的参数|
 
+
+
+
+
+
+
+
+
+
+
+
+
+
