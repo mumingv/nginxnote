@@ -10,6 +10,18 @@ Nginx收到的请求日志如下：
 172.24.185.249 - - [12/Apr/2018:16:24:39 +0800] "GET /oss/device_type HTTP/1.1" 200 31 "-" "ENRICHUID=M19nd2Vqb2pybzMyNXBvcmdwd3A%3D; 
 ```
 
+**问题原因**
+
+location中没有指定SCRIPT_FILENAME参数。
+
+```
+location ~ ^/oss/ {
+	...
+	fastcgi_param  SCRIPT_FILENAME    $document_root$fastcgi_script_name;
+	...
+}
+```
+
 **排查方法**
 
 需要确定是否走到了预期的分支。
